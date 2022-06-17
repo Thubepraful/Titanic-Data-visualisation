@@ -42,7 +42,7 @@ The data shows information about passengers, their rate of survival, factors tha
   - Box Plot
   
 # 5. Work Done :
-  - Firslt I visualised the null values of columns, and accordingly filled null values of age column with mean age and dropped cabin column which was no use to this analysis.
+  - Firstly I visualised the null values of columns, and accordingly filled null values of age column with mean age and dropped cabin column which was no use to this analysis.
   - Then with dropna method I have dropped rows with the Nan values in the dataset, with isnull & sum method ensured that dataset is cleaned for analysis.
   - To start with analysis, I counted total number of passengers travelling, and actual sum of passengers with their child/sibling-passengers with count method.
   - By using value_counts I got of survived passengers & visualised it with different plots.
