@@ -30,14 +30,8 @@ The data shows information about passengers, their rate of survival, factors tha
   - .unique()
   - .loc()
   - .plot()
-  - .DataFrame()
   - .count()
-  - .append()
-  - .idxmax()
   - .sort_values()
-  - .groupby()
-  - .get_group()
-    - shape
 
 # 4. Graphs Used :
   - Heatmap
