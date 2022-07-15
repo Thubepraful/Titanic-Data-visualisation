@@ -6,13 +6,14 @@ The data shows information about passengers, their rate of survival, factors tha
 - Preview
 - Reason to Choose these Case study
 - Pandas Methods which are used in these project
+- Supervised Learrning Classification Model 
 - Graph which are used
 - Workdone
 - Conclusion
 - Result
 
 
-# 1. Preview of File : https://drive.google.com/file/d/1T87lzQ7bI1-zLaYmjmS6d09NlBftoXiU/view?usp=sharing
+# 1. Preview of File : https://drive.google.com/file/d/12deGZ0bSs-jfEMlI-MeXpmSxqU2U-ZZu/view?usp=sharing
 
 # 2. Thoughts behind this case study : 
   - I was looking forward to review the statistics of casualty & survival chances of passengers travelling through the titanic ship that night, on a weekend after watching the titanic movie.
@@ -32,8 +33,13 @@ The data shows information about passengers, their rate of survival, factors tha
   - .plot()
   - .count()
   - .sort_values()
+  
+# 4. Prediction Model :
+  - Classification Algorithm
+    - KNN algorithm
+    - Accuracy_score 
 
-# 4. Graphs Used :
+# 5. Graphs Used :
   - Heatmap
   - Bar plot
   - Dist plot
@@ -41,7 +47,7 @@ The data shows information about passengers, their rate of survival, factors tha
   - Pie Chart
   - Box Plot
   
-# 5. Work Done :
+# 6. Work Done :
   - Firstly I visualised the null values of columns, and accordingly filled null values of age column with mean age and dropped cabin column which was no use to this analysis.
   - Then with dropna method I have dropped rows with the Nan values in the dataset, with isnull & sum method ensured that dataset is cleaned for analysis.
   - To start with analysis, I counted total number of passengers travelling, and actual sum of passengers with their child/sibling-passengers with count method.
@@ -51,7 +57,7 @@ The data shows information about passengers, their rate of survival, factors tha
   - Then I plotted histogram with distplot & boxplot method for the probabiloty distribution of the age of all passengers & also those who survived the accident.
   - Also at the end I analyzed and visualized the rate of survival according to there point of embarkation.
    
-  # 6.  Results :
+  # 7.  Results :
 
   - According to survival record in this dataset, there were a total of **889 passengers** travelling by the titanic ship when it sank on **14 April 1912**.
   - Out of the total passengers, almost **72.5%** passengers travelling from the start of journey & only 1/3rd passengers survived the accident.
@@ -61,6 +67,7 @@ The data shows information about passengers, their rate of survival, factors tha
   - The Titanic had the **youngest passenger** of age around *three months* as min age being **0.42 years**, where as the **eldest passenger** was of age **80 years**.
   - **68%** Survived passengers also vary in age from **15-41** yrs, according to the standard deviation & distplot.
 
-# 7.  Conclusion :
+# 8.  Conclusion :
 
  - If you would have been a *mid-aged* **Female** specifically in your **20-30's** travelling as a **parent/child** from a **1st class** boarded from **Cherbourg port**, you would have probably the most chances of **surviving** the Titanic-Iceberg Accident.
+ - You can check it with the prediction model yourself
